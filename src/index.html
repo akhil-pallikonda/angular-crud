@@ -1,69 +1,166 @@
-
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Akhil - Portfolio</title>
-<style>
-body{margin:0;background:#000;color:#F5F5F7;font-family:Inter,Arial,sans-serif}
-.hero{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;
-background:radial-gradient(circle at center, rgba(41,151,255,.18), rgba(87,0,255,.12) 25%, transparent 70%), #000;}
-.label{font-size:14px;letter-spacing:.25em;color:#86868B}
-h1{font-size:96px;margin:20px 0;letter-spacing:-.04em}
-.sub{font-size:32px;color:#86868B}
-.btns{margin-top:40px}
-.btn{padding:16px 32px;border-radius:999px;border:1px solid #2997FF;margin:0 10px;text-decoration:none;color:#F5F5F7}
-.primary{background:#2997FF}
-section{max-width:1200px;margin:auto;padding:120px 40px}
-.two-col{display:grid;grid-template-columns:1fr 2fr;gap:80px}
-.title{font-size:48px}
-.p{font-size:20px;line-height:1.5;color:#cfcfcf}
-.grid{display:grid;grid-template-columns:2fr 1fr;gap:24px}
-.card{background:#1C1C1E;padding:32px;border-radius:24px}
-.timeline-item{margin:80px 0}
-.footer{text-align:center;color:#86868B;padding:60px}
-</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Akhil - Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            background: #000;
+            color: #F5F5F7;
+            font-family: Inter, Arial, sans-serif
+        }
+
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: radial-gradient(circle at center, rgba(41, 151, 255, .18), rgba(87, 0, 255, .12) 25%, transparent 70%), #000;
+        }
+
+        .label {
+            font-size: 14px;
+            letter-spacing: .25em;
+            color: #86868B
+        }
+
+        h1 {
+            font-size: 96px;
+            margin: 20px 0;
+            letter-spacing: -.04em
+        }
+
+        .sub {
+            font-size: 32px;
+            color: #86868B
+        }
+
+        .btns {
+            margin-top: 40px
+        }
+
+        .btn {
+            padding: 16px 32px;
+            border-radius: 999px;
+            border: 1px solid #2997FF;
+            margin: 0 10px;
+            text-decoration: none;
+            color: #F5F5F7
+        }
+
+        .primary {
+            background: #2997FF
+        }
+
+        section {
+            max-width: 1200px;
+            margin: auto;
+            padding: 120px 40px
+        }
+
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 80px
+        }
+
+        .title {
+            font-size: 48px
+        }
+
+        .p {
+            font-size: 20px;
+            line-height: 1.5;
+            color: #cfcfcf
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 24px
+        }
+
+        .card {
+            background: #1C1C1E;
+            padding: 32px;
+            border-radius: 24px
+        }
+
+        .timeline-item {
+            margin: 80px 0
+        }
+
+        .footer {
+            text-align: center;
+            color: #86868B;
+            padding: 60px
+        }
+    </style>
 </head>
+
 <body>
-<div class="hero">
-<div class="label">DEVELOPER. ARCHITECT. PROBLEM SOLVER.</div>
-<h1>Akhil Pallikonda</h1>
-<div class="sub">Engineering scalable systems and seamless experiences.</div>
-<div class="btns">
-<a class="btn primary" href="#">View Work</a>
-<a class="btn" href="#">Contact Me</a>
-</div>
-</div>
+    <div class="hero">
+        <div class="label">DEVELOPER. ARCHITECT. PROBLEM SOLVER.</div>
+        <h1>Akhil Pallikonda</h1>
+        <div class="sub">Engineering scalable systems and seamless experiences.</div>
+        <div class="btns">
+            <a class="btn primary" href="#">View Work</a>
+            <a class="btn" href="#">Contact Me</a>
+        </div>
+    </div>
 
-<section class="two-col">
-<div class="title">Built for Performance.</div>
-<div>
-<p class="p">Currently building robust financial tech as a Software Engineer III at JPMorganChase.</p>
-<p class="p">Specialized in scalable microservices, Spring Boot, React, and enterprise modernization.</p>
-<p class="p">Pursuing an MBA in Business Analytics through BITS Pilani.</p>
-</div>
-</section>
+    <section class="two-col">
+        <div class="title">Built for Performance.</div>
+        <div>
+            <p class="p">Currently building robust financial tech as a Software Engineer III at JPMorganChase.</p>
+            <p class="p">Specialized in scalable microservices, Spring Boot, React, and enterprise modernization.</p>
+            <p class="p">Pursuing an MBA in Business Analytics through BITS Pilani.</p>
+        </div>
+    </section>
 
-<section>
-<h2 class="title">Tech Specs</h2>
-<div class="grid">
-<div class="card"><h3>Backend Architecture</h3><p>Java • Spring Boot • Microservices • Kafka</p></div>
-<div class="card"><h3>Frontend & UI</h3><p>React • Reusable Components</p></div>
-<div class="card"><h3>Data & Strategy</h3><p>Business Analytics • Systems Architecture</p></div>
-<div class="card"><h3>Cloud & DevOps</h3><p>AWS • Docker • CI/CD</p></div>
-</div>
-</section>
+    <section>
+        <h2 class="title">Tech Specs</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Backend Architecture</h3>
+                <p>Java • Spring Boot • Microservices • Kafka</p>
+            </div>
+            <div class="card">
+                <h3>Frontend & UI</h3>
+                <p>React • Reusable Components</p>
+            </div>
+            <div class="card">
+                <h3>Data & Strategy</h3>
+                <p>Business Analytics • Systems Architecture</p>
+            </div>
+            <div class="card">
+                <h3>Cloud & DevOps</h3>
+                <p>AWS • Docker • CI/CD</p>
+            </div>
+        </div>
+    </section>
 
-<section>
-<h2 class="title">The Journey</h2>
-<div class="timeline-item"><h3>Software Engineer III @ JPMorganChase</h3><p>2026 – Present</p></div>
-<div class="timeline-item"><h3>Technical Lead @ Happiest Minds Technologies</h3><p>Up to 2026</p></div>
-</section>
+    <section>
+        <h2 class="title">The Journey</h2>
+        <div class="timeline-item">
+            <h3>Software Engineer III @ JPMorganChase</h3>
+            <p>2026 – Present</p>
+        </div>
+        <div class="timeline-item">
+            <h3>Technical Lead @ Happiest Minds Technologies</h3>
+            <p>Up to 2026</p>
+        </div>
+    </section>
 
-<div class="footer">
-GitHub • LinkedIn • Resume • Email<br><br>
-© 2026 Pallikonda Akhil. Built with React.
-</div>
+    <div class="footer">
+        GitHub • LinkedIn • Resume • Email<br><br>
+        © 2026 Pallikonda Akhil. Built with React.
+    </div>
 </body>
+
 </html>
